@@ -1,0 +1,10 @@
+.image-hot {
+  height: 90px;
+  width: 90px;
+}
+
+.title-hot {
+  display: flex;
+  align-items: center;
+  color: white;
+}

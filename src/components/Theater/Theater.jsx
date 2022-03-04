@@ -4,16 +4,15 @@ import "./card.css";
 import Hot from "../Hot/Hot";
 const Theater = (props) => {
   const { phimChieuRap } = props;
-
   return (
     <>
-      <Container>
+      <Container style={{ paddingTop: "7px" }}>
         <Row>
           <Col>
             <Row>
               {phimChieuRap.slice(0, 114).map((film) => {
                 return (
-                  <Col style={{ width: "200px", paddingTop: "7px" }}>
+                  <Col style={{ width: "200px" }}>
                     <CardFilm
                       category={film.category}
                       title={film.title}
